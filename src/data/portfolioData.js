@@ -1,6 +1,6 @@
 export const portfolioData = {
   profile: {
-    name: "Anthony Saopa Phiri",
+    name: "Anthony Phiri",
     handle: "@saopaphiri",
     title: "AI Systems Engineer & Software Developer",
     location: "Montreal, QC · Lusaka, Zambia",

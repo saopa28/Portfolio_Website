@@ -21,16 +21,16 @@ export default function App() {
   });
 
   return (
-    <div className="min-h-screen bg-[#080b11] text-slate-100 relative selection:bg-cyan-500/30 selection:text-cyan-200">
+    <div className="min-h-screen bg-[#f0f4ff] text-slate-900 relative selection:bg-blue-500/30 selection:text-blue-800">
       
-      {/* High-Tech Background Grid & Subtle Ambient Glows */}
+      {/* Light Tech Background Grid & Subtle Ambient Glows */}
       <div className="fixed inset-0 bg-tech-grid pointer-events-none z-0" />
       <div className="fixed inset-0 bg-radial-gradient pointer-events-none z-0" />
       
       {/* Subtle Ambient Radial Spotlights */}
-      <div className="fixed top-0 left-1/4 w-[500px] h-[500px] bg-blue-600/10 rounded-full blur-[120px] pointer-events-none z-0" />
-      <div className="fixed top-1/2 right-10 w-[450px] h-[450px] bg-purple-600/10 rounded-full blur-[130px] pointer-events-none z-0" />
-      <div className="fixed bottom-10 left-1/3 w-[400px] h-[400px] bg-cyan-500/10 rounded-full blur-[100px] pointer-events-none z-0" />
+      <div className="fixed top-0 left-1/4 w-[500px] h-[500px] bg-blue-300/20 rounded-full blur-[120px] pointer-events-none z-0" />
+      <div className="fixed top-1/2 right-10 w-[450px] h-[450px] bg-purple-300/15 rounded-full blur-[130px] pointer-events-none z-0" />
+      <div className="fixed bottom-10 left-1/3 w-[400px] h-[400px] bg-cyan-300/15 rounded-full blur-[100px] pointer-events-none z-0" />
 
       {/* Main Content Area */}
       <div className="relative z-10 flex flex-col min-h-screen">
